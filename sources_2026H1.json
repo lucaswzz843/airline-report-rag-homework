@@ -1,0 +1,110 @@
+[
+  {
+    "company": "中国国航",
+    "code": "601111",
+    "period": "2026H1",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-08-31/1225534214.PDF",
+    "file": "data/raw/2026H1/中国国航_2026年半年度报告.pdf",
+    "source_platform": "巨潮资讯",
+    "sha256": "7613cd6869c5b57e4f96311720b60ad5131e49c545903dfc87eaf179d0bc475a",
+    "pages": 183,
+    "chunk_count": 280,
+    "table_count": 51
+  },
+  {
+    "company": "中国东航",
+    "code": "600115",
+    "period": "2026H1",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-08-31/1225534261.PDF",
+    "file": "data/raw/2026H1/中国东航_2026年半年度报告.pdf",
+    "source_platform": "巨潮资讯",
+    "sha256": "01e0f12adcad6c08de93ac033d9dbab11e7ec91e07181b153147f92ed1b4cc09",
+    "pages": 199,
+    "chunk_count": 313,
+    "table_count": 65
+  },
+  {
+    "company": "南方航空",
+    "code": "600029",
+    "period": "2026H1",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225531128.PDF",
+    "file": "data/raw/2026H1/南方航空_2026年半年度报告.pdf",
+    "source_platform": "巨潮资讯",
+    "sha256": "225a3d5078707ac2a9a1e69ad08c07b4e7637beacafb15c31837e7539bc4bc6e",
+    "pages": 211,
+    "chunk_count": 366,
+    "table_count": 65
+  },
+  {
+    "company": "海航控股",
+    "code": "600221",
+    "period": "2026H1",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225497625.PDF",
+    "file": "data/raw/2026H1/海航控股_2026年半年度报告.pdf",
+    "source_platform": "巨潮资讯",
+    "sha256": "4d3cbd262736a7564888bdf89dc379a46742b357edcbf53267441c73dacd1ee7",
+    "pages": 173,
+    "chunk_count": 517,
+    "table_count": 253
+  },
+  {
+    "company": "春秋航空",
+    "code": "601021",
+    "period": "2026H1",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225524501.PDF",
+    "file": "data/raw/2026H1/春秋航空_2026年半年度报告.pdf",
+    "source_platform": "巨潮资讯",
+    "sha256": "2cd1b85a405db6b6dcf2593bb49029763a019e0b50fae12f21e217b52d51556c",
+    "pages": 181,
+    "chunk_count": 522,
+    "table_count": 241
+  },
+  {
+    "company": "吉祥航空",
+    "code": "603885",
+    "period": "2026H1",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-08-31/1225534158.PDF",
+    "file": "data/raw/2026H1/吉祥航空_2026年半年度报告.pdf",
+    "source_platform": "巨潮资讯",
+    "sha256": "599f342288b092ca8b33af50f9100af38a776510b91ab37d9ba3e7895c5d257c",
+    "pages": 205,
+    "chunk_count": 593,
+    "table_count": 264
+  },
+  {
+    "company": "华夏航空",
+    "code": "002928",
+    "period": "2026H1",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225508695.PDF",
+    "file": "data/raw/2026H1/华夏航空_2026年半年度报告.pdf",
+    "source_platform": "巨潮资讯",
+    "sha256": "601a5406e73f833b2eeb6563a967ebafc658538412bdbd72036062f276caf11e",
+    "pages": 144,
+    "chunk_count": 559,
+    "table_count": 243
+  },
+  {
+    "company": "国货航",
+    "code": "001391",
+    "period": "2026H1",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225508797.PDF",
+    "file": "data/raw/2026H1/国货航_2026年半年度报告.pdf",
+    "source_platform": "巨潮资讯",
+    "sha256": "fca0469c9efee85961ca0dc95fad127e67f53a680148311db727b9ea00ce0473",
+    "pages": 78,
+    "chunk_count": 486,
+    "table_count": 212
+  },
+  {
+    "company": "国泰航空",
+    "code": "00293",
+    "period": "2026H1",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-08-21/1225489401.PDF",
+    "file": "data/raw/2026H1/国泰航空_2026年半年度报告.pdf",
+    "source_platform": "巨潮资讯",
+    "sha256": "961ebbca8c26b63e6cc52181546b334edc88aa2c1dccea0cc2aa089ebddaa3d6",
+    "pages": 56,
+    "chunk_count": 122,
+    "table_count": 29
+  }
+]

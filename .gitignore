@@ -1,0 +1,16 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+data/raw/
+data/processed/
+data/index/
+evaluation/archive/
+evaluation/retrieval_logs.jsonl
+evaluation/retrieval_test_runs.jsonl
+tmp/
+deliverables/*.zip
+deliverables/*.bundle
+sources.json
+参考题_首批2题.json

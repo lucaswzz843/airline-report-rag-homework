@@ -1,0 +1,4 @@
+numpy>=1.26
+pdfplumber>=0.11
+reportlab>=4
+pypdf>=4
