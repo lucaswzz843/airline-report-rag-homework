@@ -28,7 +28,7 @@
 python3 src/server.py
 ```
 
-浏览器打开 http://127.0.0.1:8765/ 。若服务已经运行，直接打开网页，不必重建向量或重复评测。要载入代码改动，关闭本项目旧终端进程后重新启动；不要终止其他应用。
+浏览器打开 http://127.0.0.1:8765/ 。从 GitHub 下载到新的 Mac 后，若要双击启动脚本，先运行 `chmod +x *.command`；也可直接使用上述 Python 命令启动。若服务已经运行，直接打开网页，不必重建向量或重复评测。要载入代码改动，关闭本项目旧终端进程后重新启动；不要终止其他应用。
 
 从代码仓库恢复完整系统：
 
@@ -86,6 +86,6 @@ python3 -m unittest discover -s tests -v  # 调试时序/过滤/失败保留测�
 
 ## 交付与限制
 
-`deliverables/一页结论.pdf` 为正式一页结论；截图见 `deliverables/screenshots/`。本地 Git 仓库及提交压缩包可用于后续上传。线上仓库目标：https://github.com/lucaswzz843/airline-report-rag-homework（发布状态以远端实际文件为准）。
+`deliverables/一页结论.pdf` 为正式一页结论；截图见 `deliverables/screenshots/`。本地 Git 仓库及提交压缩包可用于后续上传。线上仓库：[airline-report-rag-homework](https://github.com/lucaswzz843/airline-report-rag-homework)。
 
 表格保留提取出的二维行列，表格块重复两行表头；无边框、多层表头、数值跨行和跨页续表不能保证全部自动正确。国货航双页版左右分开保存，普通横向宽表保持整页。物理 PDF 页码与印刷页码可能不同，引用按 PDF 物理页定位。章节使用规则识别，已发现部分章节元数据误标；未全量人工审计 1,430 页。没有 OCR，图片文字可能漏失。日志增强未重写召回公式、去重策略或全景候选配额，因此已记录的召回问题仍是本次评测结果的一部分。
