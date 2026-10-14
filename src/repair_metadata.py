@@ -16,6 +16,8 @@ def repair():
                         if t in TITLES:chapter=t;break
                 page['chapter']=chapter;mapping[page['pdf_page']]=chapter
             for chunk in chunks:chunk['chapter']=mapping[chunk['pdf_page']]
+        for chunk in chunks:
+            chunk.update(source_url=s['url'],report_title=s.get('report_title'),currency=s.get('currency'),full_report_verified=s.get('full_report_verified',False))
         p.write_text(json.dumps(pages,ensure_ascii=False));c.write_text(json.dumps(chunks,ensure_ascii=False));all_chunks.extend(chunks)
     (DATA/'chunks.json').write_text(json.dumps(all_chunks,ensure_ascii=False))
 if __name__=='__main__':repair()

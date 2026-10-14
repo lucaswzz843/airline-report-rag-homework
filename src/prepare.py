@@ -24,6 +24,8 @@ def extract(source):
     with pdfplumber.open(ROOT/source['file']) as pdf:
         source['pages']=len(pdf.pages)
         for n,p in enumerate(pdf.pages,1):
+            if source.get('chapter_ranges'):
+                chapter=next((r['title'] for r in source['chapter_ranges'] if r['start']<=n<=r['end']),chapter)
             # 国货航原文是双页跨页版，必须左右分别提取。
             regions=[('L',p.crop((0,0,p.width/2,p.height))),('R',p.crop((p.width/2,0,p.width,p.height)))] if company=='国货航' and p.width>p.height*1.3 else [('',p)]
             for side,pg in regions:
@@ -47,6 +49,9 @@ def extract(source):
                         # 重复前两行以保留多层表头，保存原始行列不猜测空白单元格含义。
                         header='\n'.join(' | '.join(row) for row in grid[:2]);body=grid[2:]
                         pre='\n'.join(l for l in lines if any(x in l for x in ['单位','單位','币种','幣種']))[:180]
+                        if source.get('download_method')=='twse':
+                            # 台湾报表同时有单季和半年列；携带页面的原始报告标题和日期行。
+                            pre='\n'.join(lines[:6])
                         groups=[];buf=[];length=0
                         for row in body:
                             r=' | '.join(row)

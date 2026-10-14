@@ -2,6 +2,7 @@ import json,argparse,urllib.parse,time,threading
 from http.server import ThreadingHTTPServer,BaseHTTPRequestHandler
 from rag import ROOT,Engine,config
 from retrieval_log import new_id,record_retrieval,append_event
+from coverage import retrieval_coverage
 engine=Engine()
 LOG_PATH=ROOT/'evaluation/retrieval_logs.jsonl'
 PENDING={};LOCK=threading.Lock();TTL=1200
@@ -57,7 +58,7 @@ class Handler(BaseHTTPRequestHandler):
                     for ident in [i for i,v in PENDING.items() if time.monotonic()-v['created']>TTL]:PENDING.pop(ident)
                     if len(PENDING)>=100:raise ValueError('待回答检索过多，请稍后重试')
                     PENDING[request_id]=dict(created=time.monotonic(),question=q,companies=companies,panorama=panorama,hits=hits)
-                return self.send(200,dict(hits=hits,mode=mode,answer='',request_id=request_id,companies=companies or [],panorama=panorama))
+                return self.send(200,dict(hits=hits,retrieval_coverage=retrieval_coverage(hits,companies or engine.companies),mode=mode,answer='',request_id=request_id,companies=companies or [],panorama=panorama))
             result=engine.answer(q,companies,panorama,hits=hits) if hybrid else dict(hits=hits,mode=mode,answer='')
             append_event(LOG_PATH,request_id,'answer' if hybrid else 'complete',system_answer=result['answer'],usage=result.get('usage'),finish_reason=result.get('finish_reason'),answer_correct=None,error_analysis='待核对')
             return self.send(200,dict(result,request_id=request_id,companies=companies or [],panorama=panorama))
