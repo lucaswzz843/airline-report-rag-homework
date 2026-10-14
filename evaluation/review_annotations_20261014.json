@@ -1,0 +1,1593 @@
+{
+  "Q01": {
+    "review_status": "通过",
+    "error_analysis": "合并营收12,336,145,333元人民币，正确区分母公司12,290,411,494元；实际合并利润表和主要会计数据均支持。",
+    "error_stage": [],
+    "evidence_obligations": [
+      {
+        "company": "春秋航空",
+        "obligations": [
+          {
+            "name": "合并营业收入、期间及单位",
+            "status": "covered",
+            "chunk_ids": [
+              "601021-p008-00018",
+              "601021-p072-00173",
+              "601021-p071-00168",
+              "601021-p071-00170",
+              "601021-p071-00169",
+              "601021-p072-00174",
+              "601021-p073-00178",
+              "601021-p015-00040"
+            ],
+            "reference_pdf_pages": [],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          }
+        ]
+      }
+    ],
+    "source_checks": [
+      {
+        "company": "春秋航空",
+        "pdf_page": 8,
+        "source_file": "data/raw/2026H1/春秋航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225524501.PDF"
+      },
+      {
+        "company": "春秋航空",
+        "pdf_page": 71,
+        "source_file": "data/raw/2026H1/春秋航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225524501.PDF"
+      },
+      {
+        "company": "春秋航空",
+        "pdf_page": 72,
+        "source_file": "data/raw/2026H1/春秋航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225524501.PDF"
+      }
+    ],
+    "answer_evaluation": {
+      "covered_companies": [
+        "春秋航空"
+      ],
+      "covered_count": 1,
+      "expected_count": 1,
+      "correct_companies": [
+        "春秋航空"
+      ],
+      "interpretation": "回答公司覆盖仅统计实际逐公司回答；正确性由原页核对另判。"
+    }
+  },
+  "Q02": {
+    "review_status": "通过",
+    "error_analysis": "81.82%、81.53%及增加0.29个百分点均正确；8块全是华夏。答案末尾币种说明对客座率这个无量纲指标无意义，未计作数值错误。",
+    "error_stage": [],
+    "evidence_obligations": [
+      {
+        "company": "华夏航空",
+        "obligations": [
+          {
+            "name": "客座率",
+            "status": "covered",
+            "chunk_ids": [
+              "002928-p013-00026",
+              "002928-p013-00028",
+              "002928-p009-00018",
+              "002928-p010-00020",
+              "002928-p012-00025",
+              "002928-p012-00023",
+              "002928-p015-00034",
+              "002928-p015-00035"
+            ],
+            "reference_pdf_pages": [],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "同比百分点",
+            "status": "covered",
+            "chunk_ids": [
+              "002928-p013-00026",
+              "002928-p013-00028",
+              "002928-p009-00018",
+              "002928-p010-00020",
+              "002928-p012-00025",
+              "002928-p012-00023",
+              "002928-p015-00034",
+              "002928-p015-00035"
+            ],
+            "reference_pdf_pages": [],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          }
+        ]
+      }
+    ],
+    "source_checks": [
+      {
+        "company": "华夏航空",
+        "pdf_page": 9,
+        "source_file": "data/raw/2026H1/华夏航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225508695.PDF"
+      },
+      {
+        "company": "华夏航空",
+        "pdf_page": 12,
+        "source_file": "data/raw/2026H1/华夏航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225508695.PDF"
+      },
+      {
+        "company": "华夏航空",
+        "pdf_page": 13,
+        "source_file": "data/raw/2026H1/华夏航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225508695.PDF"
+      }
+    ],
+    "answer_evaluation": {
+      "covered_companies": [
+        "华夏航空"
+      ],
+      "covered_count": 1,
+      "expected_count": 1,
+      "correct_companies": [
+        "华夏航空"
+      ],
+      "interpretation": "回答公司覆盖仅统计实际逐公司回答；正确性由原页核对另判。"
+    }
+  },
+  "Q03": {
+    "review_status": "通过",
+    "error_analysis": "集团收益68,061百万港元=680.61亿港元，币种、期间、集团口径正确；原PDF25页及4页核对一致。",
+    "error_stage": [],
+    "evidence_obligations": [
+      {
+        "company": "国泰航空",
+        "obligations": [
+          {
+            "name": "集团收益、期间及单位",
+            "status": "covered",
+            "chunk_ids": [
+              "00293-p006-00008",
+              "00293-p033-00065",
+              "00293-p025-00043",
+              "00293-p036-00072",
+              "00293-p030-00056",
+              "00293-p030-00055",
+              "00293-p045-00101",
+              "00293-p037-00074"
+            ],
+            "reference_pdf_pages": [],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          }
+        ]
+      }
+    ],
+    "source_checks": [
+      {
+        "company": "国泰航空",
+        "pdf_page": 4,
+        "source_file": "data/raw/2026H1/国泰航空_2026年半年度报告.pdf",
+        "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0821/2026082100311_c.pdf"
+      },
+      {
+        "company": "国泰航空",
+        "pdf_page": 25,
+        "source_file": "data/raw/2026H1/国泰航空_2026年半年度报告.pdf",
+        "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0821/2026082100311_c.pdf"
+      },
+      {
+        "company": "国泰航空",
+        "pdf_page": 29,
+        "source_file": "data/raw/2026H1/国泰航空_2026年半年度报告.pdf",
+        "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0821/2026082100311_c.pdf"
+      }
+    ],
+    "answer_evaluation": {
+      "covered_companies": [
+        "国泰航空"
+      ],
+      "covered_count": 1,
+      "expected_count": 1,
+      "correct_companies": [
+        "国泰航空"
+      ],
+      "interpretation": "回答公司覆盖仅统计实际逐公司回答；正确性由原页核对另判。"
+    }
+  },
+  "Q04": {
+    "review_status": "部分正确",
+    "error_analysis": "核心现金流3,462,819,745元及增长24.11%正确；但把75页母公司现金流3,622,884,879元判为冲突/排版错误，74页母公司表头证明是不同口径。不能以多数投票否定合法母公司数据。",
+    "error_stage": [
+      "跨页表头",
+      "答案生成"
+    ],
+    "evidence_obligations": [
+      {
+        "company": "春秋航空",
+        "obligations": [
+          {
+            "name": "经营现金流净额",
+            "status": "covered",
+            "chunk_ids": [
+              "601021-p008-00018",
+              "601021-p073-00177",
+              "601021-p074-00182",
+              "601021-p024-00057",
+              "601021-p024-00055",
+              "601021-p149-00416",
+              "601021-p074-00180",
+              "601021-p075-00187"
+            ],
+            "reference_pdf_pages": [],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "同比变化",
+            "status": "covered",
+            "chunk_ids": [
+              "601021-p008-00018",
+              "601021-p073-00177",
+              "601021-p074-00182",
+              "601021-p024-00057",
+              "601021-p024-00055",
+              "601021-p149-00416",
+              "601021-p074-00180",
+              "601021-p075-00187"
+            ],
+            "reference_pdf_pages": [],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          }
+        ]
+      }
+    ],
+    "source_checks": [
+      {
+        "company": "春秋航空",
+        "pdf_page": 8,
+        "source_file": "data/raw/2026H1/春秋航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225524501.PDF"
+      },
+      {
+        "company": "春秋航空",
+        "pdf_page": 73,
+        "source_file": "data/raw/2026H1/春秋航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225524501.PDF"
+      },
+      {
+        "company": "春秋航空",
+        "pdf_page": 74,
+        "source_file": "data/raw/2026H1/春秋航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225524501.PDF"
+      },
+      {
+        "company": "春秋航空",
+        "pdf_page": 75,
+        "source_file": "data/raw/2026H1/春秋航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225524501.PDF"
+      }
+    ],
+    "answer_evaluation": {
+      "covered_companies": [
+        "春秋航空"
+      ],
+      "covered_count": 1,
+      "expected_count": 1,
+      "correct_companies": null,
+      "interpretation": "回答公司覆盖仅统计实际逐公司回答；正确性由原页核对另判。"
+    }
+  },
+  "Q05": {
+    "review_status": "部分正确",
+    "error_analysis": "燃油/汇率风险类别及航油占比36.15%、油价±5%对应628,836千元正确；但把2025年末美元金融资产3,290,637千元、负债67,976,371千元误标2026年中，净敞口换算少10倍；还把人民币升值对应增加税前利润611,999千元写成减少。core_correct仅指题目要求的风险类别，量化解释并不正确。",
+    "error_stage": [
+      "表头年份",
+      "金额换算",
+      "敏感性方向",
+      "答案生成"
+    ],
+    "evidence_obligations": [
+      {
+        "company": "海航控股",
+        "obligations": [
+          {
+            "name": "燃油价格风险",
+            "status": "covered",
+            "chunk_ids": [
+              "600221-p020-00058",
+              "600221-p020-00057",
+              "600221-p142-00417",
+              "600221-p142-00416",
+              "600221-p021-00059",
+              "600221-p141-00411",
+              "600221-p143-00420",
+              "600221-p132-00387"
+            ],
+            "reference_pdf_pages": [],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "汇率风险",
+            "status": "covered",
+            "chunk_ids": [
+              "600221-p020-00058",
+              "600221-p020-00057",
+              "600221-p142-00417",
+              "600221-p142-00416",
+              "600221-p021-00059",
+              "600221-p141-00411",
+              "600221-p143-00420",
+              "600221-p132-00387"
+            ],
+            "reference_pdf_pages": [],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          }
+        ]
+      }
+    ],
+    "source_checks": [
+      {
+        "company": "海航控股",
+        "pdf_page": 20,
+        "source_file": "data/raw/2026H1/海航控股_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225497625.PDF"
+      },
+      {
+        "company": "海航控股",
+        "pdf_page": 21,
+        "source_file": "data/raw/2026H1/海航控股_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225497625.PDF"
+      },
+      {
+        "company": "海航控股",
+        "pdf_page": 141,
+        "source_file": "data/raw/2026H1/海航控股_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225497625.PDF"
+      },
+      {
+        "company": "海航控股",
+        "pdf_page": 142,
+        "source_file": "data/raw/2026H1/海航控股_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225497625.PDF"
+      }
+    ],
+    "answer_evaluation": {
+      "covered_companies": [
+        "海航控股"
+      ],
+      "covered_count": 1,
+      "expected_count": 1,
+      "correct_companies": null,
+      "interpretation": "回答公司覆盖仅统计实际逐公司回答；正确性由原页核对另判。"
+    }
+  },
+  "Q06": {
+    "review_status": "通过",
+    "error_analysis": "支线定位、干支合作、202条航线、200条支线、182条独飞、101个支线航点、14个基地及77架机队均与相关原页一致；公司自称的行业定位按报告陈述理解。",
+    "error_stage": [],
+    "evidence_obligations": [
+      {
+        "company": "华夏航空",
+        "obligations": [
+          {
+            "name": "经营模式",
+            "status": "covered",
+            "chunk_ids": [
+              "002928-p014-00031",
+              "002928-p013-00029",
+              "002928-p014-00030",
+              "002928-p010-00020",
+              "002928-p015-00035",
+              "002928-p009-00017",
+              "002928-p007-00012",
+              "002928-p007-00010"
+            ],
+            "reference_pdf_pages": [],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "航线特点",
+            "status": "covered",
+            "chunk_ids": [
+              "002928-p014-00031",
+              "002928-p013-00029",
+              "002928-p014-00030",
+              "002928-p010-00020",
+              "002928-p015-00035",
+              "002928-p009-00017",
+              "002928-p007-00012",
+              "002928-p007-00010"
+            ],
+            "reference_pdf_pages": [],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          }
+        ]
+      }
+    ],
+    "source_checks": [
+      {
+        "company": "华夏航空",
+        "pdf_page": 9,
+        "source_file": "data/raw/2026H1/华夏航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225508695.PDF"
+      },
+      {
+        "company": "华夏航空",
+        "pdf_page": 10,
+        "source_file": "data/raw/2026H1/华夏航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225508695.PDF"
+      },
+      {
+        "company": "华夏航空",
+        "pdf_page": 13,
+        "source_file": "data/raw/2026H1/华夏航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225508695.PDF"
+      },
+      {
+        "company": "华夏航空",
+        "pdf_page": 14,
+        "source_file": "data/raw/2026H1/华夏航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225508695.PDF"
+      },
+      {
+        "company": "华夏航空",
+        "pdf_page": 15,
+        "source_file": "data/raw/2026H1/华夏航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225508695.PDF"
+      }
+    ],
+    "answer_evaluation": {
+      "covered_companies": [
+        "华夏航空"
+      ],
+      "covered_count": 1,
+      "expected_count": 1,
+      "correct_companies": [
+        "华夏航空"
+      ],
+      "interpretation": "回答公司覆盖仅统计实际逐公司回答；正确性由原页核对另判。"
+    }
+  },
+  "Q07": {
+    "review_status": "部分正确",
+    "error_analysis": "国货航三大主营板块与货运定位正确，腹舱货运解释基本正确；却引入没有召回证据的客运收入70%-90%、腹舱<15%等行业比例，并称货运与客运公司业务不存在重叠。客运公司的腹舱货运也属货运业务，不能用国货航单方片段证明这些泛化结论。",
+    "error_stage": [
+      "比较证据不足",
+      "答案生成"
+    ],
+    "evidence_obligations": [
+      {
+        "company": "国货航",
+        "obligations": [
+          {
+            "name": "国货航主营板块",
+            "status": "covered",
+            "chunk_ids": [
+              "001391-p076R-00479",
+              "001391-p076R-00475",
+              "001391-p060L-00340",
+              "001391-p018R-00107",
+              "001391-p060L-00342",
+              "001391-p010L-00079",
+              "001391-p076R-00474",
+              "001391-p060L-00339"
+            ],
+            "reference_pdf_pages": [],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "与客运公司的有据比较",
+            "status": "partial",
+            "chunk_ids": [
+              "001391-p076R-00479",
+              "001391-p076R-00475",
+              "001391-p060L-00340",
+              "001391-p018R-00107",
+              "001391-p060L-00342",
+              "001391-p010L-00079",
+              "001391-p076R-00474",
+              "001391-p060L-00339"
+            ],
+            "reference_pdf_pages": [],
+            "note": "只召回国货航，未召回客运公司报告，不能支持具体行业营收比例。"
+          }
+        ]
+      }
+    ],
+    "source_checks": [
+      {
+        "company": "国货航",
+        "pdf_page": 10,
+        "source_file": "data/raw/2026H1/国货航_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225508797.PDF"
+      },
+      {
+        "company": "国货航",
+        "pdf_page": 18,
+        "source_file": "data/raw/2026H1/国货航_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225508797.PDF"
+      },
+      {
+        "company": "国货航",
+        "pdf_page": 60,
+        "source_file": "data/raw/2026H1/国货航_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225508797.PDF"
+      }
+    ],
+    "answer_evaluation": {
+      "covered_companies": [
+        "国货航"
+      ],
+      "covered_count": 1,
+      "expected_count": 1,
+      "correct_companies": null,
+      "interpretation": "回答公司覆盖仅统计实际逐公司回答；正确性由原页核对另判。"
+    }
+  },
+  "Q08": {
+    "review_status": "通过",
+    "error_analysis": "收入客公里/可用座位公里×100%及分子分母定义正确，原PDF5页支持。附加的IATA标准说法不由本次片段证明，核对结论只覆盖题目所问报告定义。",
+    "error_stage": [],
+    "evidence_obligations": [
+      {
+        "company": "中国国航",
+        "obligations": [
+          {
+            "name": "客座率公式",
+            "status": "covered",
+            "chunk_ids": [
+              "601111-p014-00043",
+              "601111-p014-00046",
+              "601111-p014-00044",
+              "601111-p020-00067",
+              "601111-p005-00007",
+              "601111-p005-00009",
+              "601111-p013-00038",
+              "601111-p014-00042"
+            ],
+            "reference_pdf_pages": [],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "分子分母",
+            "status": "covered",
+            "chunk_ids": [
+              "601111-p014-00043",
+              "601111-p014-00046",
+              "601111-p014-00044",
+              "601111-p020-00067",
+              "601111-p005-00007",
+              "601111-p005-00009",
+              "601111-p013-00038",
+              "601111-p014-00042"
+            ],
+            "reference_pdf_pages": [],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          }
+        ]
+      }
+    ],
+    "source_checks": [
+      {
+        "company": "中国国航",
+        "pdf_page": 5,
+        "source_file": "data/raw/2026H1/中国国航_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-31/1225534214.PDF"
+      },
+      {
+        "company": "中国国航",
+        "pdf_page": 13,
+        "source_file": "data/raw/2026H1/中国国航_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-31/1225534214.PDF"
+      },
+      {
+        "company": "中国国航",
+        "pdf_page": 14,
+        "source_file": "data/raw/2026H1/中国国航_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-31/1225534214.PDF"
+      }
+    ],
+    "answer_evaluation": {
+      "covered_companies": [
+        "中国国航"
+      ],
+      "covered_count": 1,
+      "expected_count": 1,
+      "correct_companies": [
+        "中国国航"
+      ],
+      "interpretation": "回答公司覆盖仅统计实际逐公司回答；正确性由原页核对另判。"
+    }
+  },
+  "Q09": {
+    "review_status": "不通过",
+    "error_analysis": "召回公司11/11并不等于营收证据齐全：南航和国货航未召回集团营收；华夏把国内收入3,707,047,315.89元当集团总额，漏国际21,519,343.94元，实际合并营收3,728,566,659.83元。又把“未召回”说成“全文未见”。中华120,815,551仟元、长荣128,285,547千元均正确采用115年1-6月，8家数值正确；另外3家未正确完成。",
+    "error_stage": [
+      "召回缺失",
+      "分地区/合并口径",
+      "将未召回误作未披露",
+      "答案生成"
+    ],
+    "evidence_obligations": [
+      {
+        "company": "中国国航",
+        "obligations": [
+          {
+            "name": "半年合并营收、币种及单位",
+            "status": "covered",
+            "chunk_ids": [
+              "601111-p145-00238",
+              "601111-p014-00042",
+              "601111-p007-00021"
+            ],
+            "reference_pdf_pages": [
+              7
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          }
+        ]
+      },
+      {
+        "company": "中国东航",
+        "obligations": [
+          {
+            "name": "半年合并营收、币种及单位",
+            "status": "covered",
+            "chunk_ids": [
+              "600115-p010-00018",
+              "600115-p060-00137",
+              "600115-p071-00158"
+            ],
+            "reference_pdf_pages": [
+              10
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          }
+        ]
+      },
+      {
+        "company": "南方航空",
+        "obligations": [
+          {
+            "name": "半年合并营收、币种及单位",
+            "status": "missing",
+            "chunk_ids": [],
+            "reference_pdf_pages": [
+              8
+            ],
+            "note": "有公司块，但全是子公司/往来信息，未召回集团合并营收。"
+          }
+        ]
+      },
+      {
+        "company": "海航控股",
+        "obligations": [
+          {
+            "name": "半年合并营收、币种及单位",
+            "status": "covered",
+            "chunk_ids": [
+              "600221-p006-00015",
+              "600221-p006-00017",
+              "600221-p173-00515"
+            ],
+            "reference_pdf_pages": [
+              6
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          }
+        ]
+      },
+      {
+        "company": "春秋航空",
+        "obligations": [
+          {
+            "name": "半年合并营收、币种及单位",
+            "status": "covered",
+            "chunk_ids": [
+              "601021-p008-00021",
+              "601021-p008-00018",
+              "601021-p072-00173"
+            ],
+            "reference_pdf_pages": [
+              8
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          }
+        ]
+      },
+      {
+        "company": "吉祥航空",
+        "obligations": [
+          {
+            "name": "半年合并营收、币种及单位",
+            "status": "covered",
+            "chunk_ids": [
+              "603885-p006-00016",
+              "603885-p023-00065",
+              "603885-p006-00014"
+            ],
+            "reference_pdf_pages": [
+              6
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          }
+        ]
+      },
+      {
+        "company": "华夏航空",
+        "obligations": [
+          {
+            "name": "半年合并营收、币种及单位",
+            "status": "partial",
+            "chunk_ids": [
+              "002928-p115-00415",
+              "002928-p016-00041",
+              "002928-p142-00548"
+            ],
+            "reference_pdf_pages": [
+              7
+            ],
+            "note": "召回国内/国际收入及母公司表，需加总地区并辨别口径，未召回总营收主表。"
+          }
+        ]
+      },
+      {
+        "company": "国货航",
+        "obligations": [
+          {
+            "name": "半年合并营收、币种及单位",
+            "status": "missing",
+            "chunk_ids": [],
+            "reference_pdf_pages": [
+              18
+            ],
+            "note": "有公司块，但全是子公司/往来信息，未召回集团合并营收。"
+          }
+        ]
+      },
+      {
+        "company": "国泰航空",
+        "obligations": [
+          {
+            "name": "半年合并营收、币种及单位",
+            "status": "covered",
+            "chunk_ids": [
+              "00293-p045-00101",
+              "00293-p004-00003",
+              "00293-p036-00073"
+            ],
+            "reference_pdf_pages": [
+              4
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          }
+        ]
+      },
+      {
+        "company": "中华航空",
+        "obligations": [
+          {
+            "name": "半年合并营收、币种及单位",
+            "status": "covered",
+            "chunk_ids": [
+              "2610-p006-00011",
+              "2610-p008-00017",
+              "2610-p021-00042"
+            ],
+            "reference_pdf_pages": [
+              6
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          }
+        ]
+      },
+      {
+        "company": "长荣航空",
+        "obligations": [
+          {
+            "name": "半年合并营收、币种及单位",
+            "status": "covered",
+            "chunk_ids": [
+              "2618-p005-00008",
+              "2618-p049-00082",
+              "2618-p017-00030"
+            ],
+            "reference_pdf_pages": [
+              5
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          }
+        ]
+      }
+    ],
+    "source_checks": [
+      {
+        "company": "中国国航",
+        "pdf_page": 7,
+        "source_file": "data/raw/2026H1/中国国航_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-31/1225534214.PDF"
+      },
+      {
+        "company": "中国国航",
+        "pdf_page": 14,
+        "source_file": "data/raw/2026H1/中国国航_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-31/1225534214.PDF"
+      },
+      {
+        "company": "中国东航",
+        "pdf_page": 10,
+        "source_file": "data/raw/2026H1/中国东航_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-31/1225534261.PDF"
+      },
+      {
+        "company": "南方航空",
+        "pdf_page": 8,
+        "source_file": "data/raw/2026H1/南方航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225531128.PDF"
+      },
+      {
+        "company": "海航控股",
+        "pdf_page": 6,
+        "source_file": "data/raw/2026H1/海航控股_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225497625.PDF"
+      },
+      {
+        "company": "春秋航空",
+        "pdf_page": 8,
+        "source_file": "data/raw/2026H1/春秋航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225524501.PDF"
+      },
+      {
+        "company": "春秋航空",
+        "pdf_page": 72,
+        "source_file": "data/raw/2026H1/春秋航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225524501.PDF"
+      },
+      {
+        "company": "吉祥航空",
+        "pdf_page": 6,
+        "source_file": "data/raw/2026H1/吉祥航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-31/1225534158.PDF"
+      },
+      {
+        "company": "华夏航空",
+        "pdf_page": 7,
+        "source_file": "data/raw/2026H1/华夏航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225508695.PDF"
+      },
+      {
+        "company": "华夏航空",
+        "pdf_page": 115,
+        "source_file": "data/raw/2026H1/华夏航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225508695.PDF"
+      },
+      {
+        "company": "国货航",
+        "pdf_page": 18,
+        "source_file": "data/raw/2026H1/国货航_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225508797.PDF"
+      },
+      {
+        "company": "国货航",
+        "pdf_page": 60,
+        "source_file": "data/raw/2026H1/国货航_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225508797.PDF"
+      },
+      {
+        "company": "国泰航空",
+        "pdf_page": 4,
+        "source_file": "data/raw/2026H1/国泰航空_2026年半年度报告.pdf",
+        "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0821/2026082100311_c.pdf"
+      },
+      {
+        "company": "国泰航空",
+        "pdf_page": 29,
+        "source_file": "data/raw/2026H1/国泰航空_2026年半年度报告.pdf",
+        "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0821/2026082100311_c.pdf"
+      },
+      {
+        "company": "中华航空",
+        "pdf_page": 6,
+        "source_file": "data/raw/2026H1/中华航空_2026年半年度合并财务报告.pdf",
+        "source_url": "https://doc.twse.com.tw/pdf/202602_2610_AI1_20261014_104439.pdf"
+      },
+      {
+        "company": "长荣航空",
+        "pdf_page": 5,
+        "source_file": "data/raw/2026H1/长荣航空_2026年半年度合并财务报告.pdf",
+        "source_url": "https://doc.twse.com.tw/pdf/202602_2618_AI1_20261014_104437.pdf"
+      }
+    ],
+    "answer_evaluation": {
+      "covered_companies": [
+        "中国国航",
+        "中国东航",
+        "南方航空",
+        "海航控股",
+        "春秋航空",
+        "吉祥航空",
+        "华夏航空",
+        "国货航",
+        "国泰航空",
+        "中华航空",
+        "长荣航空"
+      ],
+      "covered_count": 11,
+      "expected_count": 11,
+      "correct_companies": [
+        "中国国航",
+        "中国东航",
+        "海航控股",
+        "春秋航空",
+        "吉祥航空",
+        "国泰航空",
+        "中华航空",
+        "长荣航空"
+      ],
+      "interpretation": "回答公司覆盖仅统计实际逐公司回答；正确性由原页核对另判。"
+    }
+  },
+  "Q10": {
+    "review_status": "不通过",
+    "error_analysis": "回答完整列出11家、finish_reason=stop，没有旧版截断；但仍有公司串用和单位错误：南航需求段写成海航20页的2.1%/4.9%、1200公里等内容，南航需求原页25未召回。华夏需求26页未召回。中华仅召回54-55页燃油段，却套入长荣14页42,030,274千元外币租赁负债；长荣把该数写成4203万、把60,581,040千元写成6058万，均少1000倍。泛称未提供量化应限定本次片段。",
+    "error_stage": [
+      "召回缺失",
+      "跨公司证据串用",
+      "金额单位",
+      "答案生成"
+    ],
+    "evidence_obligations": [
+      {
+        "company": "中国国航",
+        "obligations": [
+          {
+            "name": "燃油价格风险",
+            "status": "covered",
+            "chunk_ids": [
+              "601111-p021-00070"
+            ],
+            "reference_pdf_pages": [
+              21
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "汇率风险",
+            "status": "covered",
+            "chunk_ids": [
+              "601111-p021-00070",
+              "601111-p164-00259"
+            ],
+            "reference_pdf_pages": [
+              21,
+              164
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "市场需求风险",
+            "status": "covered",
+            "chunk_ids": [
+              "601111-p021-00070"
+            ],
+            "reference_pdf_pages": [
+              21
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          }
+        ]
+      },
+      {
+        "company": "中国东航",
+        "obligations": [
+          {
+            "name": "燃油价格风险",
+            "status": "covered",
+            "chunk_ids": [
+              "600115-p041-00087"
+            ],
+            "reference_pdf_pages": [
+              41
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "汇率风险",
+            "status": "covered",
+            "chunk_ids": [
+              "600115-p041-00087",
+              "600115-p042-00088"
+            ],
+            "reference_pdf_pages": [
+              41,
+              42
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "市场需求风险",
+            "status": "covered",
+            "chunk_ids": [
+              "600115-p041-00087"
+            ],
+            "reference_pdf_pages": [
+              41
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          }
+        ]
+      },
+      {
+        "company": "南方航空",
+        "obligations": [
+          {
+            "name": "燃油价格风险",
+            "status": "covered",
+            "chunk_ids": [
+              "600029-p026-00075",
+              "600029-p026-00076"
+            ],
+            "reference_pdf_pages": [
+              26
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "汇率风险",
+            "status": "covered",
+            "chunk_ids": [
+              "600029-p026-00075",
+              "600029-p191-00345",
+              "600029-p026-00076"
+            ],
+            "reference_pdf_pages": [
+              26,
+              191
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "市场需求风险",
+            "status": "missing",
+            "chunk_ids": [],
+            "reference_pdf_pages": [
+              25
+            ],
+            "note": "本轮3块没有该风险证据；不表示报告或公司不存在该风险。"
+          }
+        ]
+      },
+      {
+        "company": "海航控股",
+        "obligations": [
+          {
+            "name": "燃油价格风险",
+            "status": "covered",
+            "chunk_ids": [
+              "600221-p020-00058",
+              "600221-p020-00057"
+            ],
+            "reference_pdf_pages": [
+              20
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "汇率风险",
+            "status": "covered",
+            "chunk_ids": [
+              "600221-p020-00058",
+              "600221-p020-00057",
+              "600221-p141-00411"
+            ],
+            "reference_pdf_pages": [
+              20,
+              141,
+              142
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "市场需求风险",
+            "status": "covered",
+            "chunk_ids": [
+              "600221-p020-00058",
+              "600221-p020-00057"
+            ],
+            "reference_pdf_pages": [
+              20
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          }
+        ]
+      },
+      {
+        "company": "春秋航空",
+        "obligations": [
+          {
+            "name": "燃油价格风险",
+            "status": "covered",
+            "chunk_ids": [
+              "601021-p031-00072"
+            ],
+            "reference_pdf_pages": [
+              31
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "汇率风险",
+            "status": "covered",
+            "chunk_ids": [
+              "601021-p155-00434"
+            ],
+            "reference_pdf_pages": [
+              155
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "市场需求风险",
+            "status": "covered",
+            "chunk_ids": [
+              "601021-p031-00072",
+              "601021-p030-00070"
+            ],
+            "reference_pdf_pages": [
+              30,
+              31
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          }
+        ]
+      },
+      {
+        "company": "吉祥航空",
+        "obligations": [
+          {
+            "name": "燃油价格风险",
+            "status": "covered",
+            "chunk_ids": [
+              "603885-p026-00073"
+            ],
+            "reference_pdf_pages": [
+              26
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "汇率风险",
+            "status": "covered",
+            "chunk_ids": [
+              "603885-p026-00073",
+              "603885-p172-00488"
+            ],
+            "reference_pdf_pages": [
+              26,
+              172
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "市场需求风险",
+            "status": "covered",
+            "chunk_ids": [
+              "603885-p025-00070"
+            ],
+            "reference_pdf_pages": [
+              25
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          }
+        ]
+      },
+      {
+        "company": "华夏航空",
+        "obligations": [
+          {
+            "name": "燃油价格风险",
+            "status": "covered",
+            "chunk_ids": [
+              "002928-p027-00090",
+              "002928-p027-00089"
+            ],
+            "reference_pdf_pages": [
+              27
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "汇率风险",
+            "status": "covered",
+            "chunk_ids": [
+              "002928-p129-00483"
+            ],
+            "reference_pdf_pages": [
+              28,
+              129
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "市场需求风险",
+            "status": "missing",
+            "chunk_ids": [],
+            "reference_pdf_pages": [
+              26
+            ],
+            "note": "本轮3块没有该风险证据；不表示报告或公司不存在该风险。"
+          }
+        ]
+      },
+      {
+        "company": "国货航",
+        "obligations": [
+          {
+            "name": "燃油价格风险",
+            "status": "covered",
+            "chunk_ids": [
+              "001391-p023L-00124",
+              "001391-p023R-00126"
+            ],
+            "reference_pdf_pages": [
+              23
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "汇率风险",
+            "status": "covered",
+            "chunk_ids": [
+              "001391-p066R-00390"
+            ],
+            "reference_pdf_pages": [
+              66
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "市场需求风险",
+            "status": "covered",
+            "chunk_ids": [
+              "001391-p023L-00124",
+              "001391-p023R-00126"
+            ],
+            "reference_pdf_pages": [
+              23
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          }
+        ]
+      },
+      {
+        "company": "国泰航空",
+        "obligations": [
+          {
+            "name": "燃油价格风险",
+            "status": "covered",
+            "chunk_ids": [
+              "00293-p027-00047"
+            ],
+            "reference_pdf_pages": [
+              27
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "汇率风险",
+            "status": "covered",
+            "chunk_ids": [
+              "00293-p054-00120"
+            ],
+            "reference_pdf_pages": [
+              54
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "市场需求风险",
+            "status": "partial",
+            "chunk_ids": [
+              "00293-p054-00120",
+              "00293-p027-00047",
+              "00293-p007-00009"
+            ],
+            "reference_pdf_pages": [
+              7,
+              54
+            ],
+            "note": "前景及免责声明给出宏观不确定性，属于一般性披露，不是完整需求风险分析。"
+          }
+        ]
+      },
+      {
+        "company": "中华航空",
+        "obligations": [
+          {
+            "name": "燃油价格风险",
+            "status": "covered",
+            "chunk_ids": [
+              "2610-p054-00101",
+              "2610-p055-00103",
+              "2610-p054-00102"
+            ],
+            "reference_pdf_pages": [
+              54,
+              55,
+              56
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "汇率风险",
+            "status": "missing",
+            "chunk_ids": [],
+            "reference_pdf_pages": [
+              51,
+              52,
+              64,
+              65
+            ],
+            "note": "本轮3块没有该风险证据；不表示报告或公司不存在该风险。"
+          },
+          {
+            "name": "市场需求风险",
+            "status": "missing",
+            "chunk_ids": [],
+            "reference_pdf_pages": [],
+            "note": "本轮3块没有该风险证据；不表示报告或公司不存在该风险。"
+          }
+        ]
+      },
+      {
+        "company": "长荣航空",
+        "obligations": [
+          {
+            "name": "燃油价格风险",
+            "status": "covered",
+            "chunk_ids": [
+              "2618-p014-00025",
+              "2618-p013-00024"
+            ],
+            "reference_pdf_pages": [
+              13,
+              14
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "汇率风险",
+            "status": "covered",
+            "chunk_ids": [
+              "2618-p014-00025",
+              "2618-p037-00063"
+            ],
+            "reference_pdf_pages": [
+              14,
+              37,
+              38
+            ],
+            "note": "原始召回含所需事实；这是证据评价，不是答案正确性。"
+          },
+          {
+            "name": "市场需求风险",
+            "status": "missing",
+            "chunk_ids": [],
+            "reference_pdf_pages": [],
+            "note": "本轮3块没有该风险证据；不表示报告或公司不存在该风险。"
+          }
+        ]
+      }
+    ],
+    "source_checks": [
+      {
+        "company": "中国国航",
+        "pdf_page": 21,
+        "source_file": "data/raw/2026H1/中国国航_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-31/1225534214.PDF"
+      },
+      {
+        "company": "中国国航",
+        "pdf_page": 164,
+        "source_file": "data/raw/2026H1/中国国航_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-31/1225534214.PDF"
+      },
+      {
+        "company": "中国东航",
+        "pdf_page": 41,
+        "source_file": "data/raw/2026H1/中国东航_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-31/1225534261.PDF"
+      },
+      {
+        "company": "中国东航",
+        "pdf_page": 42,
+        "source_file": "data/raw/2026H1/中国东航_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-31/1225534261.PDF"
+      },
+      {
+        "company": "南方航空",
+        "pdf_page": 25,
+        "source_file": "data/raw/2026H1/南方航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225531128.PDF"
+      },
+      {
+        "company": "南方航空",
+        "pdf_page": 26,
+        "source_file": "data/raw/2026H1/南方航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225531128.PDF"
+      },
+      {
+        "company": "海航控股",
+        "pdf_page": 20,
+        "source_file": "data/raw/2026H1/海航控股_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225497625.PDF"
+      },
+      {
+        "company": "春秋航空",
+        "pdf_page": 30,
+        "source_file": "data/raw/2026H1/春秋航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225524501.PDF"
+      },
+      {
+        "company": "春秋航空",
+        "pdf_page": 31,
+        "source_file": "data/raw/2026H1/春秋航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225524501.PDF"
+      },
+      {
+        "company": "春秋航空",
+        "pdf_page": 155,
+        "source_file": "data/raw/2026H1/春秋航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225524501.PDF"
+      },
+      {
+        "company": "吉祥航空",
+        "pdf_page": 25,
+        "source_file": "data/raw/2026H1/吉祥航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-31/1225534158.PDF"
+      },
+      {
+        "company": "吉祥航空",
+        "pdf_page": 26,
+        "source_file": "data/raw/2026H1/吉祥航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-31/1225534158.PDF"
+      },
+      {
+        "company": "华夏航空",
+        "pdf_page": 26,
+        "source_file": "data/raw/2026H1/华夏航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225508695.PDF"
+      },
+      {
+        "company": "华夏航空",
+        "pdf_page": 27,
+        "source_file": "data/raw/2026H1/华夏航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225508695.PDF"
+      },
+      {
+        "company": "华夏航空",
+        "pdf_page": 28,
+        "source_file": "data/raw/2026H1/华夏航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225508695.PDF"
+      },
+      {
+        "company": "华夏航空",
+        "pdf_page": 129,
+        "source_file": "data/raw/2026H1/华夏航空_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225508695.PDF"
+      },
+      {
+        "company": "国货航",
+        "pdf_page": 23,
+        "source_file": "data/raw/2026H1/国货航_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225508797.PDF"
+      },
+      {
+        "company": "国货航",
+        "pdf_page": 66,
+        "source_file": "data/raw/2026H1/国货航_2026年半年度报告.pdf",
+        "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225508797.PDF"
+      },
+      {
+        "company": "国泰航空",
+        "pdf_page": 7,
+        "source_file": "data/raw/2026H1/国泰航空_2026年半年度报告.pdf",
+        "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0821/2026082100311_c.pdf"
+      },
+      {
+        "company": "国泰航空",
+        "pdf_page": 27,
+        "source_file": "data/raw/2026H1/国泰航空_2026年半年度报告.pdf",
+        "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0821/2026082100311_c.pdf"
+      },
+      {
+        "company": "国泰航空",
+        "pdf_page": 54,
+        "source_file": "data/raw/2026H1/国泰航空_2026年半年度报告.pdf",
+        "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0821/2026082100311_c.pdf"
+      },
+      {
+        "company": "中华航空",
+        "pdf_page": 51,
+        "source_file": "data/raw/2026H1/中华航空_2026年半年度合并财务报告.pdf",
+        "source_url": "https://doc.twse.com.tw/pdf/202602_2610_AI1_20261014_104439.pdf"
+      },
+      {
+        "company": "中华航空",
+        "pdf_page": 52,
+        "source_file": "data/raw/2026H1/中华航空_2026年半年度合并财务报告.pdf",
+        "source_url": "https://doc.twse.com.tw/pdf/202602_2610_AI1_20261014_104439.pdf"
+      },
+      {
+        "company": "中华航空",
+        "pdf_page": 54,
+        "source_file": "data/raw/2026H1/中华航空_2026年半年度合并财务报告.pdf",
+        "source_url": "https://doc.twse.com.tw/pdf/202602_2610_AI1_20261014_104439.pdf"
+      },
+      {
+        "company": "中华航空",
+        "pdf_page": 55,
+        "source_file": "data/raw/2026H1/中华航空_2026年半年度合并财务报告.pdf",
+        "source_url": "https://doc.twse.com.tw/pdf/202602_2610_AI1_20261014_104439.pdf"
+      },
+      {
+        "company": "中华航空",
+        "pdf_page": 56,
+        "source_file": "data/raw/2026H1/中华航空_2026年半年度合并财务报告.pdf",
+        "source_url": "https://doc.twse.com.tw/pdf/202602_2610_AI1_20261014_104439.pdf"
+      },
+      {
+        "company": "中华航空",
+        "pdf_page": 64,
+        "source_file": "data/raw/2026H1/中华航空_2026年半年度合并财务报告.pdf",
+        "source_url": "https://doc.twse.com.tw/pdf/202602_2610_AI1_20261014_104439.pdf"
+      },
+      {
+        "company": "中华航空",
+        "pdf_page": 65,
+        "source_file": "data/raw/2026H1/中华航空_2026年半年度合并财务报告.pdf",
+        "source_url": "https://doc.twse.com.tw/pdf/202602_2610_AI1_20261014_104439.pdf"
+      },
+      {
+        "company": "长荣航空",
+        "pdf_page": 13,
+        "source_file": "data/raw/2026H1/长荣航空_2026年半年度合并财务报告.pdf",
+        "source_url": "https://doc.twse.com.tw/pdf/202602_2618_AI1_20261014_104437.pdf"
+      },
+      {
+        "company": "长荣航空",
+        "pdf_page": 14,
+        "source_file": "data/raw/2026H1/长荣航空_2026年半年度合并财务报告.pdf",
+        "source_url": "https://doc.twse.com.tw/pdf/202602_2618_AI1_20261014_104437.pdf"
+      },
+      {
+        "company": "长荣航空",
+        "pdf_page": 37,
+        "source_file": "data/raw/2026H1/长荣航空_2026年半年度合并财务报告.pdf",
+        "source_url": "https://doc.twse.com.tw/pdf/202602_2618_AI1_20261014_104437.pdf"
+      },
+      {
+        "company": "长荣航空",
+        "pdf_page": 38,
+        "source_file": "data/raw/2026H1/长荣航空_2026年半年度合并财务报告.pdf",
+        "source_url": "https://doc.twse.com.tw/pdf/202602_2618_AI1_20261014_104437.pdf"
+      }
+    ],
+    "answer_evaluation": {
+      "covered_companies": [
+        "中国国航",
+        "中国东航",
+        "南方航空",
+        "海航控股",
+        "春秋航空",
+        "吉祥航空",
+        "华夏航空",
+        "国货航",
+        "国泰航空",
+        "中华航空",
+        "长荣航空"
+      ],
+      "covered_count": 11,
+      "expected_count": 11,
+      "correct_companies": null,
+      "interpretation": "回答公司覆盖仅统计实际逐公司回答；正确性由原页核对另判。"
+    }
+  }
+}

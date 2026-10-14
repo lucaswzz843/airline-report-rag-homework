@@ -1,0 +1,1597 @@
+{
+  "company_count": 11,
+  "official_full_report_count": 11,
+  "excluded_summary_count": 0,
+  "cathay_audit_resolution": "原文件与港交所全文SHA-256完全相同；本轮将主下载来源切换港交所，未把已是全文的文件虚构为摘要替换。",
+  "sources": [
+    {
+      "company": "中国国航",
+      "code": "601111",
+      "period": "2026H1",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-31/1225534214.PDF",
+      "file": "data/raw/2026H1/中国国航_2026年半年度报告.pdf",
+      "source_platform": "巨潮资讯",
+      "sha256": "7613cd6869c5b57e4f96311720b60ad5131e49c545903dfc87eaf179d0bc475a",
+      "pages": 183,
+      "chunk_count": 280,
+      "table_count": 51,
+      "currency": "CNY",
+      "report_type": "半年度报告全文",
+      "full_report_verified": true,
+      "report_title": "中国国航2026年半年度报告",
+      "exchange": "SSE",
+      "hash_verified": true,
+      "full_report_evidence": {
+        "balance_sheet": [
+          {
+            "pdf_page": 45,
+            "side": "",
+            "excerpt": "合并资产负债表"
+          },
+          {
+            "pdf_page": 46,
+            "side": "",
+            "excerpt": "合并资产负债表 (续)"
+          },
+          {
+            "pdf_page": 53,
+            "side": "",
+            "excerpt": "母公司资产负债表"
+          },
+          {
+            "pdf_page": 54,
+            "side": "",
+            "excerpt": "母公司资产负债表 (续)"
+          },
+          {
+            "pdf_page": 62,
+            "side": "",
+            "excerpt": "得的处置价款与处置长期股权投资相对应享有子公司净资产的差额，均调整合并资产负债表"
+          },
+          {
+            "pdf_page": 63,
+            "side": "",
+            "excerpt": "于资产负债表日，外币货币性项目采用该日的即期汇率折算。除与购建符合资本化条件资产"
+          }
+        ],
+        "income_statement": [
+          {
+            "pdf_page": 48,
+            "side": "",
+            "excerpt": "合并利润表 (未经审计)"
+          },
+          {
+            "pdf_page": 49,
+            "side": "",
+            "excerpt": "合并利润表 (未经审计) (续)"
+          },
+          {
+            "pdf_page": 55,
+            "side": "",
+            "excerpt": "母公司利润表 (未经审计)"
+          },
+          {
+            "pdf_page": 63,
+            "side": "",
+            "excerpt": "目外，其他项目采用发生时的即期汇率折算。利润表中的收入和费用项目，采用交易发生当"
+          }
+        ],
+        "cashflow_statement": [
+          {
+            "pdf_page": 51,
+            "side": "",
+            "excerpt": "合并现金流量表 (未经审计)"
+          },
+          {
+            "pdf_page": 52,
+            "side": "",
+            "excerpt": "合并现金流量表 (未经审计) (续)"
+          },
+          {
+            "pdf_page": 57,
+            "side": "",
+            "excerpt": "母公司现金流量表 (未经审计)"
+          },
+          {
+            "pdf_page": 58,
+            "side": "",
+            "excerpt": "母公司现金流量表 (未经审计) (续)"
+          },
+          {
+            "pdf_page": 135,
+            "side": "",
+            "excerpt": "52. 现金流量表项目注释"
+          },
+          {
+            "pdf_page": 136,
+            "side": "",
+            "excerpt": "52. 现金流量表项目注释：(续)"
+          }
+        ],
+        "equity_statement": [
+          {
+            "pdf_page": 50,
+            "side": "",
+            "excerpt": "合并股东权益变动表 (未经审计)"
+          },
+          {
+            "pdf_page": 56,
+            "side": "",
+            "excerpt": "母公司股东权益变动表 (未经审计)"
+          }
+        ],
+        "notes": [
+          {
+            "pdf_page": 18,
+            "side": "",
+            "excerpt": "对外股权投资总体情况详见财务报表附注五、9。"
+          },
+          {
+            "pdf_page": 59,
+            "side": "",
+            "excerpt": "财务报表附注"
+          },
+          {
+            "pdf_page": 60,
+            "side": "",
+            "excerpt": "财务报表附注 (续)"
+          },
+          {
+            "pdf_page": 61,
+            "side": "",
+            "excerpt": "财务报表附注 (续)"
+          },
+          {
+            "pdf_page": 62,
+            "side": "",
+            "excerpt": "财务报表附注 (续)"
+          },
+          {
+            "pdf_page": 63,
+            "side": "",
+            "excerpt": "财务报表附注 (续)"
+          }
+        ]
+      },
+      "verified_at": "2026-10-14",
+      "verification_method": "核对官方披露分类、封面/目录、四张报表及后续附注；SHA-256校验原PDF。此项验证报告完整性，不表示逐页数字均已审计。",
+      "audited_statement_pages": {
+        "balance_sheet": 45,
+        "income_statement": 48,
+        "equity_statement": 50,
+        "cashflow_statement": 51,
+        "notes_start": 59
+      }
+    },
+    {
+      "company": "中国东航",
+      "code": "600115",
+      "period": "2026H1",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-31/1225534261.PDF",
+      "file": "data/raw/2026H1/中国东航_2026年半年度报告.pdf",
+      "source_platform": "巨潮资讯",
+      "sha256": "01e0f12adcad6c08de93ac033d9dbab11e7ec91e07181b153147f92ed1b4cc09",
+      "pages": 199,
+      "chunk_count": 313,
+      "table_count": 65,
+      "currency": "CNY",
+      "report_type": "半年度报告全文",
+      "full_report_verified": true,
+      "report_title": "中国东航2026年半年度报告",
+      "exchange": "SSE",
+      "hash_verified": true,
+      "full_report_evidence": {
+        "balance_sheet": [
+          {
+            "pdf_page": 67,
+            "side": "",
+            "excerpt": "合并及公司资产负债表 1 - 3"
+          },
+          {
+            "pdf_page": 68,
+            "side": "",
+            "excerpt": "合并及公司资产负债表"
+          },
+          {
+            "pdf_page": 69,
+            "side": "",
+            "excerpt": "合并及公司资产负债表 - 续"
+          },
+          {
+            "pdf_page": 70,
+            "side": "",
+            "excerpt": "合并及公司资产负债表 - 续"
+          },
+          {
+            "pdf_page": 81,
+            "side": "",
+            "excerpt": "于资产负债表日，外币货币性项目采用资产负债表日的即期汇率折算为人民币。为购建符"
+          },
+          {
+            "pdf_page": 82,
+            "side": "",
+            "excerpt": "将自资产负债表日起一年内(含一年)到期的债权投资和长期应收款，列示为一年内到期的"
+          }
+        ],
+        "income_statement": [
+          {
+            "pdf_page": 67,
+            "side": "",
+            "excerpt": "合并及公司利润表 4"
+          },
+          {
+            "pdf_page": 71,
+            "side": "",
+            "excerpt": "合并及公司利润表"
+          },
+          {
+            "pdf_page": 80,
+            "side": "",
+            "excerpt": "控制方控制之日起纳入本公司合并范围，并将其在合并日前实现的净利润在合并利润表中"
+          },
+          {
+            "pdf_page": 81,
+            "side": "",
+            "excerpt": "益中除未分配利润项目外，其他项目采用发生时的即期汇率折算。境外经营的利润表中的"
+          },
+          {
+            "pdf_page": 86,
+            "side": "",
+            "excerpt": "合套期会计要求的衍生金融工具，其公允价值的变动计入利润表的“公允价值变动收益”。"
+          },
+          {
+            "pdf_page": 87,
+            "side": "",
+            "excerpt": "特定风险，最终对利润表产生影响。"
+          }
+        ],
+        "cashflow_statement": [
+          {
+            "pdf_page": 67,
+            "side": "",
+            "excerpt": "合并及公司现金流量表 5"
+          },
+          {
+            "pdf_page": 72,
+            "side": "",
+            "excerpt": "合并及公司现金流量表"
+          },
+          {
+            "pdf_page": 81,
+            "side": "",
+            "excerpt": "易发生日的即期汇率折算。汇率变动对现金的影响额在现金流量表中单独列示。"
+          },
+          {
+            "pdf_page": 153,
+            "side": "",
+            "excerpt": "(59) 现金流量表项目注释"
+          },
+          {
+            "pdf_page": 154,
+            "side": "",
+            "excerpt": "(59) 现金流量表项目注释 - 续"
+          },
+          {
+            "pdf_page": 155,
+            "side": "",
+            "excerpt": "(59) 现金流量表项目注释 - 续"
+          }
+        ],
+        "equity_statement": [
+          {
+            "pdf_page": 67,
+            "side": "",
+            "excerpt": "合并及公司股东权益变动表 6 - 9"
+          },
+          {
+            "pdf_page": 73,
+            "side": "",
+            "excerpt": "合并股东权益变动表"
+          },
+          {
+            "pdf_page": 74,
+            "side": "",
+            "excerpt": "合并股东权益变动表 - 续"
+          },
+          {
+            "pdf_page": 75,
+            "side": "",
+            "excerpt": "公司股东权益变动表"
+          },
+          {
+            "pdf_page": 76,
+            "side": "",
+            "excerpt": "公司股东权益变动表 - 续"
+          }
+        ],
+        "notes": [
+          {
+            "pdf_page": 67,
+            "side": "",
+            "excerpt": "财务报表附注 10 - 130"
+          },
+          {
+            "pdf_page": 77,
+            "side": "",
+            "excerpt": "截至 2026 年 6 月 30 日止 6 个月期间财务报表附注"
+          },
+          {
+            "pdf_page": 78,
+            "side": "",
+            "excerpt": "截至 2026 年 6 月 30 日止 6 个月期间财务报表附注"
+          },
+          {
+            "pdf_page": 79,
+            "side": "",
+            "excerpt": "截至 2026 年 6 月 30 日止 6 个月期间财务报表附注"
+          },
+          {
+            "pdf_page": 80,
+            "side": "",
+            "excerpt": "截至 2026 年 6 月 30 日止 6 个月期间财务报表附注"
+          },
+          {
+            "pdf_page": 81,
+            "side": "",
+            "excerpt": "截至 2026 年 6 月 30 日止 6 个月期间财务报表附注"
+          }
+        ]
+      },
+      "verified_at": "2026-10-14",
+      "verification_method": "核对官方披露分类、封面/目录、四张报表及后续附注；SHA-256校验原PDF。此项验证报告完整性，不表示逐页数字均已审计。",
+      "audited_statement_pages": {
+        "balance_sheet": 68,
+        "income_statement": 71,
+        "equity_statement": 73,
+        "cashflow_statement": 72,
+        "notes_start": 77
+      }
+    },
+    {
+      "company": "南方航空",
+      "code": "600029",
+      "period": "2026H1",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225531128.PDF",
+      "file": "data/raw/2026H1/南方航空_2026年半年度报告.pdf",
+      "source_platform": "巨潮资讯",
+      "sha256": "225a3d5078707ac2a9a1e69ad08c07b4e7637beacafb15c31837e7539bc4bc6e",
+      "pages": 211,
+      "chunk_count": 366,
+      "table_count": 65,
+      "currency": "CNY",
+      "report_type": "半年度报告全文",
+      "full_report_verified": true,
+      "report_title": "南方航空2026年半年度报告",
+      "exchange": "SSE",
+      "hash_verified": true,
+      "full_report_evidence": {
+        "balance_sheet": [
+          {
+            "pdf_page": 51,
+            "side": "",
+            "excerpt": "合并资产负债表 (未经审计)"
+          },
+          {
+            "pdf_page": 52,
+            "side": "",
+            "excerpt": "合并资产负债表 (未经审计) (续)"
+          },
+          {
+            "pdf_page": 53,
+            "side": "",
+            "excerpt": "合并资产负债表 (未经审计) (续)"
+          },
+          {
+            "pdf_page": 54,
+            "side": "",
+            "excerpt": "母公司资产负债表 (未经审计)"
+          },
+          {
+            "pdf_page": 55,
+            "side": "",
+            "excerpt": "母公司资产负债表 (未经审计) (续)"
+          },
+          {
+            "pdf_page": 56,
+            "side": "",
+            "excerpt": "母公司资产负债表 (未经审计) (续)"
+          }
+        ],
+        "income_statement": [
+          {
+            "pdf_page": 57,
+            "side": "",
+            "excerpt": "合并利润表 (未经审计)"
+          },
+          {
+            "pdf_page": 58,
+            "side": "",
+            "excerpt": "合并利润表 (未经审计) (续)"
+          },
+          {
+            "pdf_page": 59,
+            "side": "",
+            "excerpt": "母公司利润表 (未经审计)"
+          },
+          {
+            "pdf_page": 72,
+            "side": "",
+            "excerpt": "币财务报表折算差额项目外，其他项目采用发生时的即期汇率折算。利润表中的"
+          },
+          {
+            "pdf_page": 136,
+            "side": "",
+            "excerpt": "资产负债表中的其他综合收益 截至 2026 年 6 月 30 日止 6 个月期间利润表中的其他综合收益"
+          },
+          {
+            "pdf_page": 142,
+            "side": "",
+            "excerpt": "利润表中的营业成本、销售费用、管理费用和研发费用按性质分类，列示如下："
+          }
+        ],
+        "cashflow_statement": [
+          {
+            "pdf_page": 60,
+            "side": "",
+            "excerpt": "合并现金流量表 (未经审计)"
+          },
+          {
+            "pdf_page": 61,
+            "side": "",
+            "excerpt": "合并现金流量表 (未经审计) (续)"
+          },
+          {
+            "pdf_page": 62,
+            "side": "",
+            "excerpt": "母公司现金流量表 (未经审计)"
+          },
+          {
+            "pdf_page": 63,
+            "side": "",
+            "excerpt": "母公司现金流量表 (未经审计) (续)"
+          },
+          {
+            "pdf_page": 72,
+            "side": "",
+            "excerpt": "变动对现金的影响额，在现金流量表中单独列示。"
+          },
+          {
+            "pdf_page": 151,
+            "side": "",
+            "excerpt": "(59) 现金流量表项目注释"
+          }
+        ],
+        "equity_statement": [
+          {
+            "pdf_page": 64,
+            "side": "",
+            "excerpt": "合并股东权益变动表 (未经审计)"
+          },
+          {
+            "pdf_page": 65,
+            "side": "",
+            "excerpt": "母公司股东权益变动表 (未经审计)"
+          }
+        ],
+        "notes": [
+          {
+            "pdf_page": 53,
+            "side": "",
+            "excerpt": "后附财务报表附注为财务报表的组成部分。"
+          },
+          {
+            "pdf_page": 56,
+            "side": "",
+            "excerpt": "后附财务报表附注为财务报表的组成部分。"
+          },
+          {
+            "pdf_page": 58,
+            "side": "",
+            "excerpt": "后附财务报表附注为财务报表的组成部分。"
+          },
+          {
+            "pdf_page": 59,
+            "side": "",
+            "excerpt": "后附财务报表附注为财务报表的组成部分。"
+          },
+          {
+            "pdf_page": 61,
+            "side": "",
+            "excerpt": "后附财务报表附注为财务报表的组成部分。"
+          },
+          {
+            "pdf_page": 63,
+            "side": "",
+            "excerpt": "后附财务报表附注为财务报表的组成部分。"
+          }
+        ]
+      },
+      "verified_at": "2026-10-14",
+      "verification_method": "核对官方披露分类、封面/目录、四张报表及后续附注；SHA-256校验原PDF。此项验证报告完整性，不表示逐页数字均已审计。",
+      "audited_statement_pages": {
+        "balance_sheet": 51,
+        "income_statement": 57,
+        "equity_statement": 64,
+        "cashflow_statement": 60,
+        "notes_start": 72
+      }
+    },
+    {
+      "company": "海航控股",
+      "code": "600221",
+      "period": "2026H1",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225497625.PDF",
+      "file": "data/raw/2026H1/海航控股_2026年半年度报告.pdf",
+      "source_platform": "巨潮资讯",
+      "sha256": "4d3cbd262736a7564888bdf89dc379a46742b357edcbf53267441c73dacd1ee7",
+      "pages": 173,
+      "chunk_count": 517,
+      "table_count": 253,
+      "currency": "CNY",
+      "report_type": "半年度报告全文",
+      "full_report_verified": true,
+      "report_title": "海航控股2026年半年度报告",
+      "exchange": "SSE",
+      "hash_verified": true,
+      "full_report_evidence": {
+        "balance_sheet": [
+          {
+            "pdf_page": 49,
+            "side": "",
+            "excerpt": "合并资产负债表"
+          },
+          {
+            "pdf_page": 51,
+            "side": "",
+            "excerpt": "母公司资产负债表"
+          },
+          {
+            "pdf_page": 71,
+            "side": "",
+            "excerpt": "于资产负债表日，外币货币性项目采用资产负债表日的即期汇率折算为记账本位币。为购建"
+          },
+          {
+            "pdf_page": 72,
+            "side": "",
+            "excerpt": "当期损益，列示为交易性金融资产；自资产负债表日起预期持有超过一年的，列示为其他非流动"
+          },
+          {
+            "pdf_page": 73,
+            "side": "",
+            "excerpt": ""
+          },
+          {
+            "pdf_page": 75,
+            "side": "",
+            "excerpt": "在资产负债表中单独列示。"
+          }
+        ],
+        "income_statement": [
+          {
+            "pdf_page": 53,
+            "side": "",
+            "excerpt": "合并利润表"
+          },
+          {
+            "pdf_page": 55,
+            "side": "",
+            "excerpt": "母公司利润表"
+          },
+          {
+            "pdf_page": 70,
+            "side": "",
+            "excerpt": "制之日起纳入本公司合并范围，并将其在合并日前实现的净利润在合并利润表中单列项目反映。"
+          },
+          {
+            "pdf_page": 71,
+            "side": "",
+            "excerpt": "中除未分配利润项目外，其他项目采用发生时的即期汇率折算。境外经营的利润表中的收入与费"
+          },
+          {
+            "pdf_page": 75,
+            "side": "",
+            "excerpt": "利润表中列示的终止经营净利润包括其经营损益和处置损益。"
+          }
+        ],
+        "cashflow_statement": [
+          {
+            "pdf_page": 57,
+            "side": "",
+            "excerpt": "合并现金流量表"
+          },
+          {
+            "pdf_page": 59,
+            "side": "",
+            "excerpt": "母公司现金流量表"
+          },
+          {
+            "pdf_page": 71,
+            "side": "",
+            "excerpt": "本公司编制现金流量表时所确定的现金，是指库存现金以及可以随时用于支付的存款。在编"
+          },
+          {
+            "pdf_page": 129,
+            "side": "",
+            "excerpt": "78、 现金流量表项目"
+          },
+          {
+            "pdf_page": 131,
+            "side": "",
+            "excerpt": "79、 现金流量表补充资料"
+          }
+        ],
+        "equity_statement": [
+          {
+            "pdf_page": 61,
+            "side": "",
+            "excerpt": "合并所有者权益变动表"
+          },
+          {
+            "pdf_page": 64,
+            "side": "",
+            "excerpt": "母公司所有者权益变动表"
+          },
+          {
+            "pdf_page": 132,
+            "side": "",
+            "excerpt": "80、 所有者权益变动表项目注释"
+          }
+        ],
+        "notes": [
+          {
+            "pdf_page": 68,
+            "side": "",
+            "excerpt": "公司基本情况、编制基础、会计政策及七、合并财务报表项目注释"
+          }
+        ]
+      },
+      "verified_at": "2026-10-14",
+      "verification_method": "核对官方披露分类、封面/目录、四张报表及后续附注；SHA-256校验原PDF。此项验证报告完整性，不表示逐页数字均已审计。",
+      "audited_statement_pages": {
+        "balance_sheet": 49,
+        "income_statement": 53,
+        "equity_statement": 61,
+        "cashflow_statement": 57,
+        "notes_start": 68
+      }
+    },
+    {
+      "company": "春秋航空",
+      "code": "601021",
+      "period": "2026H1",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225524501.PDF",
+      "file": "data/raw/2026H1/春秋航空_2026年半年度报告.pdf",
+      "source_platform": "巨潮资讯",
+      "sha256": "2cd1b85a405db6b6dcf2593bb49029763a019e0b50fae12f21e217b52d51556c",
+      "pages": 181,
+      "chunk_count": 522,
+      "table_count": 241,
+      "currency": "CNY",
+      "report_type": "半年度报告全文",
+      "full_report_verified": true,
+      "report_title": "春秋航空2026年半年度报告",
+      "exchange": "SSE",
+      "hash_verified": true,
+      "full_report_evidence": {
+        "balance_sheet": [
+          {
+            "pdf_page": 68,
+            "side": "",
+            "excerpt": "合并资产负债表"
+          },
+          {
+            "pdf_page": 69,
+            "side": "",
+            "excerpt": "母公司资产负债表"
+          },
+          {
+            "pdf_page": 82,
+            "side": "",
+            "excerpt": "于资产负债表日，外币货币性项目采用资产负债表日的即期汇率折算为人民币。为购建符合"
+          },
+          {
+            "pdf_page": 83,
+            "side": "",
+            "excerpt": "资产主要包括货币资金、应收账款、其他应收款等。本集团将自资产负债表日起一年内(含一年)"
+          },
+          {
+            "pdf_page": 84,
+            "side": "",
+            "excerpt": "对于在资产负债表日具有较低信用风险的金融工具，本集团假设其信用风险自初始确认后并"
+          },
+          {
+            "pdf_page": 86,
+            "side": "",
+            "excerpt": ""
+          }
+        ],
+        "income_statement": [
+          {
+            "pdf_page": 71,
+            "side": "",
+            "excerpt": "合并利润表"
+          },
+          {
+            "pdf_page": 72,
+            "side": "",
+            "excerpt": "母公司利润表"
+          },
+          {
+            "pdf_page": 85,
+            "side": "",
+            "excerpt": "的衍生金融工具，其公允价值的变动计入利润表的“公允价值变动收益(损失)”。"
+          },
+          {
+            "pdf_page": 143,
+            "side": "",
+            "excerpt": "利润表中的营业成本、销售费用、管理费用和研发费用按照性质分类，列示如下："
+          }
+        ],
+        "cashflow_statement": [
+          {
+            "pdf_page": 73,
+            "side": "",
+            "excerpt": "合并现金流量表"
+          },
+          {
+            "pdf_page": 74,
+            "side": "",
+            "excerpt": "母公司现金流量表"
+          },
+          {
+            "pdf_page": 82,
+            "side": "",
+            "excerpt": "易发生日的即期汇率折算。汇率变动对现金的影响额在现金流量表中单独列示。"
+          },
+          {
+            "pdf_page": 146,
+            "side": "",
+            "excerpt": "80、 现金流量表项目"
+          },
+          {
+            "pdf_page": 148,
+            "side": "",
+            "excerpt": "81、 现金流量表补充资料"
+          }
+        ],
+        "equity_statement": [
+          {
+            "pdf_page": 76,
+            "side": "",
+            "excerpt": "合并所有者权益变动表"
+          },
+          {
+            "pdf_page": 78,
+            "side": "",
+            "excerpt": "母公司所有者权益变动表"
+          },
+          {
+            "pdf_page": 150,
+            "side": "",
+            "excerpt": "82、 所有者权益变动表项目注释"
+          }
+        ],
+        "notes": [
+          {
+            "pdf_page": 99,
+            "side": "",
+            "excerpt": "七、合并财务报表项目注释"
+          }
+        ]
+      },
+      "verified_at": "2026-10-14",
+      "verification_method": "核对官方披露分类、封面/目录、四张报表及后续附注；SHA-256校验原PDF。此项验证报告完整性，不表示逐页数字均已审计。",
+      "audited_statement_pages": {
+        "balance_sheet": 68,
+        "income_statement": 71,
+        "equity_statement": 76,
+        "cashflow_statement": 73,
+        "notes_start": 80
+      }
+    },
+    {
+      "company": "吉祥航空",
+      "code": "603885",
+      "period": "2026H1",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-31/1225534158.PDF",
+      "file": "data/raw/2026H1/吉祥航空_2026年半年度报告.pdf",
+      "source_platform": "巨潮资讯",
+      "sha256": "599f342288b092ca8b33af50f9100af38a776510b91ab37d9ba3e7895c5d257c",
+      "pages": 205,
+      "chunk_count": 593,
+      "table_count": 264,
+      "currency": "CNY",
+      "report_type": "半年度报告全文",
+      "full_report_verified": true,
+      "report_title": "吉祥航空2026年半年度报告",
+      "exchange": "SSE",
+      "hash_verified": true,
+      "full_report_evidence": {
+        "balance_sheet": [
+          {
+            "pdf_page": 22,
+            "side": "",
+            "excerpt": "化的说明 及其指南，对拟开展的套期保值业务进行相应的核算处理，反映资产负债表及损益表相关项目。公"
+          },
+          {
+            "pdf_page": 53,
+            "side": "",
+            "excerpt": "合并资产负债表"
+          },
+          {
+            "pdf_page": 55,
+            "side": "",
+            "excerpt": "母公司资产负债表"
+          },
+          {
+            "pdf_page": 85,
+            "side": "",
+            "excerpt": "（2）于资产负债表日，按照下列方法对外币货币性项目和外币非货币性项目进行处理："
+          },
+          {
+            "pdf_page": 86,
+            "side": "",
+            "excerpt": "入当期损益，列示为交易性金融资产；自资产负债表日起预期持有超过一年的，列示为其他非流"
+          },
+          {
+            "pdf_page": 89,
+            "side": "",
+            "excerpt": "自资产负债表日起一年内(含一年)到期的，列示为一年内到期的非流动负债；其余列示为非流动"
+          }
+        ],
+        "income_statement": [
+          {
+            "pdf_page": 57,
+            "side": "",
+            "excerpt": "合并利润表"
+          },
+          {
+            "pdf_page": 59,
+            "side": "",
+            "excerpt": "母公司利润表"
+          },
+          {
+            "pdf_page": 85,
+            "side": "",
+            "excerpt": "②利润表中的收入和费用项目，采用交易发生日的即期汇率折算(或采用按照系统合理的方"
+          },
+          {
+            "pdf_page": 104,
+            "side": "",
+            "excerpt": "益）的基础上，将两者之和确认为利润表中的所得税费用（或收益），但不包括直接计入股东权"
+          },
+          {
+            "pdf_page": 164,
+            "side": "",
+            "excerpt": "资产负债表 利润表"
+          }
+        ],
+        "cashflow_statement": [
+          {
+            "pdf_page": 61,
+            "side": "",
+            "excerpt": "合并现金流量表"
+          },
+          {
+            "pdf_page": 63,
+            "side": "",
+            "excerpt": "母公司现金流量表"
+          },
+          {
+            "pdf_page": 158,
+            "side": "",
+            "excerpt": "78、 现金流量表项目"
+          },
+          {
+            "pdf_page": 161,
+            "side": "",
+            "excerpt": "79、 现金流量表补充资料"
+          }
+        ],
+        "equity_statement": [
+          {
+            "pdf_page": 65,
+            "side": "",
+            "excerpt": "合并所有者权益变动表"
+          },
+          {
+            "pdf_page": 75,
+            "side": "",
+            "excerpt": "母公司所有者权益变动表"
+          },
+          {
+            "pdf_page": 162,
+            "side": "",
+            "excerpt": "80、 所有者权益变动表项目注释"
+          }
+        ],
+        "notes": [
+          {
+            "pdf_page": 18,
+            "side": "",
+            "excerpt": "主要资产受限情况详见“第八节 财务报告”之“七、合并财务报表项目注释”之“31、所有"
+          },
+          {
+            "pdf_page": 108,
+            "side": "",
+            "excerpt": "七、合并财务报表项目注释"
+          }
+        ]
+      },
+      "verified_at": "2026-10-14",
+      "verification_method": "核对官方披露分类、封面/目录、四张报表及后续附注；SHA-256校验原PDF。此项验证报告完整性，不表示逐页数字均已审计。",
+      "audited_statement_pages": {
+        "balance_sheet": 53,
+        "income_statement": 57,
+        "equity_statement": 65,
+        "cashflow_statement": 61,
+        "notes_start": 81
+      }
+    },
+    {
+      "company": "华夏航空",
+      "code": "002928",
+      "period": "2026H1",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225508695.PDF",
+      "file": "data/raw/2026H1/华夏航空_2026年半年度报告.pdf",
+      "source_platform": "巨潮资讯",
+      "sha256": "601a5406e73f833b2eeb6563a967ebafc658538412bdbd72036062f276caf11e",
+      "pages": 144,
+      "chunk_count": 559,
+      "table_count": 243,
+      "currency": "CNY",
+      "report_type": "半年度报告全文",
+      "full_report_verified": true,
+      "report_title": "华夏航空2026年半年度报告",
+      "exchange": "SZSE",
+      "hash_verified": true,
+      "full_report_evidence": {
+        "balance_sheet": [
+          {
+            "pdf_page": 30,
+            "side": "",
+            "excerpt": "务的以权益结算的股份支付，在等待期内的每个资产负债表日，应当以对可行权权益工具数量的最佳估计为基础，按照权"
+          },
+          {
+            "pdf_page": 57,
+            "side": "",
+            "excerpt": "1、合并资产负债表"
+          },
+          {
+            "pdf_page": 59,
+            "side": "",
+            "excerpt": "2、母公司资产负债表"
+          },
+          {
+            "pdf_page": 77,
+            "side": "",
+            "excerpt": "子公司所有者权益、当期净损益和当期综合收益中属于少数股东的份额分别在合并资产负债表中所有者权益项目下、合并"
+          },
+          {
+            "pdf_page": 78,
+            "side": "",
+            "excerpt": "额之间的差额，调整合并资产负债表中的资本公积中的股本溢价，资本公积中的股本溢价不足冲减的，调整留存收益。"
+          },
+          {
+            "pdf_page": 81,
+            "side": "",
+            "excerpt": "得计入当期损益，且不减少该金融资产在资产负债表中列示的账面价值。"
+          }
+        ],
+        "income_statement": [
+          {
+            "pdf_page": 62,
+            "side": "",
+            "excerpt": "3、合并利润表"
+          },
+          {
+            "pdf_page": 64,
+            "side": "",
+            "excerpt": "4、母公司利润表"
+          },
+          {
+            "pdf_page": 77,
+            "side": "",
+            "excerpt": "利润表中净利润项目下和综合收益总额项目下单独列示。子公司少数股东分担的当期亏损超过了少数股东在该子公司期初"
+          },
+          {
+            "pdf_page": 78,
+            "side": "",
+            "excerpt": "目采用发生时的即期汇率折算。利润表中的收入和费用项目，采用交易发生日的即期汇率（或：采用按照系统合理的方法"
+          }
+        ],
+        "cashflow_statement": [
+          {
+            "pdf_page": 65,
+            "side": "",
+            "excerpt": "5、合并现金流量表"
+          },
+          {
+            "pdf_page": 120,
+            "side": "",
+            "excerpt": "54、现金流量表项目"
+          },
+          {
+            "pdf_page": 121,
+            "side": "",
+            "excerpt": "55、现金流量表补充资料"
+          }
+        ],
+        "equity_statement": [
+          {
+            "pdf_page": 71,
+            "side": "",
+            "excerpt": "8、母公司所有者权益变动表"
+          }
+        ],
+        "notes": [
+          {
+            "pdf_page": 96,
+            "side": "",
+            "excerpt": "七、合并财务报表项目注释"
+          }
+        ]
+      },
+      "verified_at": "2026-10-14",
+      "verification_method": "核对官方披露分类、封面/目录、四张报表及后续附注；SHA-256校验原PDF。此项验证报告完整性，不表示逐页数字均已审计。",
+      "audited_statement_pages": {
+        "balance_sheet": 57,
+        "income_statement": 62,
+        "equity_statement": 67,
+        "cashflow_statement": 65,
+        "notes_start": 75
+      }
+    },
+    {
+      "company": "国货航",
+      "code": "001391",
+      "period": "2026H1",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225508797.PDF",
+      "file": "data/raw/2026H1/国货航_2026年半年度报告.pdf",
+      "source_platform": "巨潮资讯",
+      "sha256": "fca0469c9efee85961ca0dc95fad127e67f53a680148311db727b9ea00ce0473",
+      "pages": 78,
+      "chunk_count": 486,
+      "table_count": 212,
+      "currency": "CNY",
+      "report_type": "半年度报告全文",
+      "full_report_verified": true,
+      "report_title": "国货航2026年半年度报告",
+      "exchange": "SZSE",
+      "hash_verified": true,
+      "full_report_evidence": {
+        "balance_sheet": [
+          {
+            "pdf_page": 34,
+            "side": "L",
+            "excerpt": "合并资产负债表"
+          },
+          {
+            "pdf_page": 35,
+            "side": "L",
+            "excerpt": "母公司资产负债表"
+          },
+          {
+            "pdf_page": 41,
+            "side": "R",
+            "excerpt": "的差额，均调整合并资产负债表中的资本公积（股本溢价），资本公积（股本溢价）不足冲减的，依次冲减盈余公积、未分配"
+          },
+          {
+            "pdf_page": 42,
+            "side": "L",
+            "excerpt": "于资产负债表日，外币货币性项目采用该日的即期汇率折算。除与购建符合资本化条件资产有关的专门借款本金和利息的"
+          },
+          {
+            "pdf_page": 43,
+            "side": "R",
+            "excerpt": "金融资产和金融负债在资产负债表内分别列示，没有相互抵销。但是，同时满足下列条件的，以相互抵销后的净额在资产"
+          },
+          {
+            "pdf_page": 44,
+            "side": "L",
+            "excerpt": "未来12个月内预期信用损失，是指因资产负债表日后12个月内（若金融工具的预计存续期少于12个月，则为预计存续期）可"
+          }
+        ],
+        "income_statement": [
+          {
+            "pdf_page": 36,
+            "side": "L",
+            "excerpt": "合并利润表"
+          },
+          {
+            "pdf_page": 37,
+            "side": "L",
+            "excerpt": "母公司利润表"
+          },
+          {
+            "pdf_page": 42,
+            "side": "L",
+            "excerpt": "中除未分配利润及其他综合收益中的外币财务报表折算差额项目外，其他项目采用发生时的即期汇率折算。利润表中的收"
+          }
+        ],
+        "cashflow_statement": [
+          {
+            "pdf_page": 37,
+            "side": "R",
+            "excerpt": "合并现金流量表"
+          },
+          {
+            "pdf_page": 38,
+            "side": "R",
+            "excerpt": "母公司现金流量表"
+          },
+          {
+            "pdf_page": 63,
+            "side": "L",
+            "excerpt": "41.现金流量表项目"
+          },
+          {
+            "pdf_page": 64,
+            "side": "L",
+            "excerpt": "42.现金流量表补充资料"
+          }
+        ],
+        "equity_statement": [
+          {
+            "pdf_page": 39,
+            "side": "L",
+            "excerpt": "合并股东权益变动表"
+          },
+          {
+            "pdf_page": 40,
+            "side": "L",
+            "excerpt": "母公司股东权益变动表"
+          }
+        ],
+        "notes": [
+          {
+            "pdf_page": 29,
+            "side": "L",
+            "excerpt": "具体见本报告“第八节 财务报告”之“财务报表附注”之“五、合并财务报表主要项目注释”之“11.使用权资产“。"
+          },
+          {
+            "pdf_page": 34,
+            "side": "L",
+            "excerpt": "刊载于第77页至第149页的财务报表附注为本财务报表的组成部分。"
+          },
+          {
+            "pdf_page": 34,
+            "side": "R",
+            "excerpt": "刊载于第77页至第149页的财务报表附注为本财务报表的组成部分。"
+          },
+          {
+            "pdf_page": 35,
+            "side": "L",
+            "excerpt": "刊载于第77页至第149页的财务报表附注为本财务报表的组成部分。"
+          },
+          {
+            "pdf_page": 35,
+            "side": "R",
+            "excerpt": "刊载于第77页至第149页的财务报表附注为本财务报表的组成部分。"
+          },
+          {
+            "pdf_page": 36,
+            "side": "L",
+            "excerpt": "刊载于第77页至第149页的财务报表附注为本财务报表的组成部分。"
+          }
+        ]
+      },
+      "verified_at": "2026-10-14",
+      "verification_method": "核对官方披露分类、封面/目录、四张报表及后续附注；SHA-256校验原PDF。此项验证报告完整性，不表示逐页数字均已审计。",
+      "audited_statement_pages": {
+        "balance_sheet": 34,
+        "income_statement": 36,
+        "equity_statement": 39,
+        "cashflow_statement": 37,
+        "notes_start": 40
+      }
+    },
+    {
+      "company": "国泰航空",
+      "code": "00293",
+      "period": "2026H1",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0821/2026082100311_c.pdf",
+      "file": "data/raw/2026H1/国泰航空_2026年半年度报告.pdf",
+      "source_platform": "香港交易所披露易",
+      "sha256": "961ebbca8c26b63e6cc52181546b334edc88aa2c1dccea0cc2aa089ebddaa3d6",
+      "pages": 56,
+      "chunk_count": 122,
+      "table_count": 29,
+      "currency": "HKD",
+      "report_type": "中期报告全文",
+      "full_report_verified": true,
+      "report_title": "国泰航空2026年中期报告",
+      "exchange": "HKEX",
+      "previous_url": "https://static.cninfo.com.cn/finalpage/2026-08-21/1225489401.PDF",
+      "official_listing_url": "https://www1.hkexnews.hk/search/titlesearch.xhtml?category=0&lang=ZH&market=SEHK&stockId=517",
+      "audit_note": "与原巨潮副本SHA-256相同；完整中期报告含财务及营业撮要、业务回顾、财务报表与附注，撮要只是其中一节。",
+      "hash_verified": true,
+      "full_report_evidence": {
+        "balance_sheet": [
+          {
+            "pdf_page": 28,
+            "side": "",
+            "excerpt": "財務狀況表"
+          },
+          {
+            "pdf_page": 31,
+            "side": "",
+            "excerpt": "財務狀況表"
+          }
+        ],
+        "income_statement": [
+          {
+            "pdf_page": 29,
+            "side": "",
+            "excerpt": "損益表"
+          }
+        ],
+        "cashflow_statement": [
+          {
+            "pdf_page": 32,
+            "side": "",
+            "excerpt": "綜合現金流量表"
+          }
+        ],
+        "equity_statement": [
+          {
+            "pdf_page": 28,
+            "side": "",
+            "excerpt": "權益變動表"
+          },
+          {
+            "pdf_page": 33,
+            "side": "",
+            "excerpt": "權益變動表"
+          }
+        ],
+        "notes": [
+          {
+            "pdf_page": 34,
+            "side": "",
+            "excerpt": "財務報表附註"
+          },
+          {
+            "pdf_page": 36,
+            "side": "",
+            "excerpt": "財務報表附註"
+          },
+          {
+            "pdf_page": 38,
+            "side": "",
+            "excerpt": "財務報表附註"
+          },
+          {
+            "pdf_page": 40,
+            "side": "",
+            "excerpt": "財務報表附註"
+          },
+          {
+            "pdf_page": 42,
+            "side": "",
+            "excerpt": "財務報表附註"
+          },
+          {
+            "pdf_page": 44,
+            "side": "",
+            "excerpt": "財務報表附註"
+          }
+        ]
+      },
+      "verified_at": "2026-10-14",
+      "verification_method": "核对官方披露分类、封面/目录、四张报表及后续附注；SHA-256校验原PDF。此项验证报告完整性，不表示逐页数字均已审计。",
+      "audited_statement_pages": {
+        "balance_sheet": 31,
+        "income_statement": 29,
+        "equity_statement": 33,
+        "cashflow_statement": 32,
+        "notes_start": 34
+      }
+    },
+    {
+      "company": "中华航空",
+      "code": "2610",
+      "period": "2026H1",
+      "url": "https://doc.twse.com.tw/pdf/202602_2610_AI1_20261014_104439.pdf",
+      "file": "data/raw/2026H1/中华航空_2026年半年度合并财务报告.pdf",
+      "source_platform": "台湾证券交易所电子书系统",
+      "official_listing_url": "https://doc.twse.com.tw/server-java/t57sb01?co_id=2610&colorchg=1&mtype=A&step=1&year=115",
+      "download_method": "twse",
+      "exchange_filename": "202602_2610_AI1.pdf",
+      "sha256": "50253659b4768951a50a25fcbffed221778fba00fdacd18e1ebf4308459f4780",
+      "pages": 75,
+      "currency": "TWD",
+      "exchange": "TWSE",
+      "report_type": "半年期合并财务报告全文",
+      "report_title": "中华航空及子公司民国115及114年第2季合并财务报告暨会计师核阅报告",
+      "full_report_verified": true,
+      "chapter_ranges": [
+        {
+          "start": 1,
+          "end": 2,
+          "title": "封面及目录"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "title": "会计师核阅报告"
+        },
+        {
+          "start": 5,
+          "end": 5,
+          "title": "合并资产负债表"
+        },
+        {
+          "start": 6,
+          "end": 6,
+          "title": "合并综合损益表"
+        },
+        {
+          "start": 7,
+          "end": 7,
+          "title": "合并权益变动表"
+        },
+        {
+          "start": 8,
+          "end": 10,
+          "title": "合并现金流量表"
+        },
+        {
+          "start": 11,
+          "end": 75,
+          "title": "合并财务报表附注"
+        }
+      ],
+      "audit_note": "民国115年=2026年；完整第二季财报同时提供1—6月半年累计列与4—6月单季列，问答使用半年列。报告及附注完整，非业绩简报。",
+      "chunk_count": 148,
+      "table_count": 11,
+      "hash_verified": true,
+      "full_report_evidence": {
+        "balance_sheet": [
+          {
+            "pdf_page": 5,
+            "side": "",
+            "excerpt": "合併資產負債表"
+          },
+          {
+            "pdf_page": 15,
+            "side": "",
+            "excerpt": "成 ， 資 產 負 債 表 日 係 以 暫 定 金 額 認 列 ， 並 於 衡 量 期 間 進 行 追 溯"
+          },
+          {
+            "pdf_page": 16,
+            "side": "",
+            "excerpt": "銀 行 存 款 及 附 買 回 短 期 票 券 於 資 產 負 債 表 日 之 市 場 利 率 區 間 如"
+          },
+          {
+            "pdf_page": 21,
+            "side": "",
+            "excerpt": "合 併 公 司 於 資 產 負 債 表 日 對 關 聯 企 業 之 所 有 權 權 益 及 表 決 權 百"
+          },
+          {
+            "pdf_page": 22,
+            "side": "",
+            "excerpt": "於 資 產 負 債 表 日 對 合 資 投 資 之 所 有 權 權 益 及 表 決 權 百 分 比 如"
+          },
+          {
+            "pdf_page": 32,
+            "side": "",
+            "excerpt": "損 失 。 截 至 資 產 負 債 表 日 止 ， 並 無 逾 期 未 收 回 之 應 收 融 資 租 賃 款 ，"
+          }
+        ],
+        "income_statement": [
+          {
+            "pdf_page": 6,
+            "side": "",
+            "excerpt": "合 併 綜 合 損 益 表"
+          }
+        ],
+        "cashflow_statement": [
+          {
+            "pdf_page": 8,
+            "side": "",
+            "excerpt": "合併 現 金流 量 表"
+          },
+          {
+            "pdf_page": 13,
+            "side": "",
+            "excerpt": "此 外，IAS 7「 現金 流 量表 」 進行 以下 配 套修 正 ："
+          }
+        ],
+        "equity_statement": [
+          {
+            "pdf_page": 7,
+            "side": "",
+            "excerpt": "合併權益變動表"
+          }
+        ],
+        "notes": [
+          {
+            "pdf_page": 11,
+            "side": "",
+            "excerpt": "合併 財 務報 表 附註"
+          }
+        ]
+      },
+      "verified_at": "2026-10-14",
+      "verification_method": "核对官方披露分类、封面/目录、四张报表及后续附注；SHA-256校验原PDF。此项验证报告完整性，不表示逐页数字均已审计。",
+      "audited_statement_pages": {
+        "balance_sheet": 5,
+        "income_statement": 6,
+        "equity_statement": 7,
+        "cashflow_statement": 8,
+        "notes_start": 11
+      }
+    },
+    {
+      "company": "长荣航空",
+      "code": "2618",
+      "period": "2026H1",
+      "url": "https://doc.twse.com.tw/pdf/202602_2618_AI1_20261014_104437.pdf",
+      "file": "data/raw/2026H1/长荣航空_2026年半年度合并财务报告.pdf",
+      "source_platform": "台湾证券交易所电子书系统",
+      "official_listing_url": "https://doc.twse.com.tw/server-java/t57sb01?co_id=2618&colorchg=1&mtype=A&step=1&year=115",
+      "download_method": "twse",
+      "exchange_filename": "202602_2618_AI1.pdf",
+      "sha256": "53a84579c08dc757dde275349b8909c38e184c9ba7cacb7efc77d35bf2d065ca",
+      "pages": 59,
+      "currency": "TWD",
+      "exchange": "TWSE",
+      "report_type": "半年期合并财务报告全文",
+      "report_title": "长荣航空及子公司民国115及114年第2季合并财务报告暨会计师核阅报告",
+      "full_report_verified": true,
+      "chapter_ranges": [
+        {
+          "start": 1,
+          "end": 2,
+          "title": "封面及目录"
+        },
+        {
+          "start": 3,
+          "end": 3,
+          "title": "会计师核阅报告"
+        },
+        {
+          "start": 4,
+          "end": 4,
+          "title": "合并资产负债表"
+        },
+        {
+          "start": 5,
+          "end": 5,
+          "title": "合并综合损益表"
+        },
+        {
+          "start": 6,
+          "end": 6,
+          "title": "合并权益变动表"
+        },
+        {
+          "start": 7,
+          "end": 8,
+          "title": "合并现金流量表"
+        },
+        {
+          "start": 9,
+          "end": 59,
+          "title": "合并财务报表附注"
+        }
+      ],
+      "audit_note": "民国115年=2026年；完整第二季财报同时提供1—6月半年累计列与4—6月单季列，问答使用半年列。报告及附注完整，非业绩简报。",
+      "chunk_count": 108,
+      "table_count": 9,
+      "hash_verified": true,
+      "full_report_evidence": {
+        "balance_sheet": [
+          {
+            "pdf_page": 3,
+            "side": "",
+            "excerpt": ""
+          },
+          {
+            "pdf_page": 4,
+            "side": "",
+            "excerpt": "合併資產負債表"
+          }
+        ],
+        "income_statement": [
+          {
+            "pdf_page": 3,
+            "side": "",
+            "excerpt": "三十日之合併綜合損益表，暨民國一一五年及一一四年一月一日至六月三十日之合併權益變動"
+          },
+          {
+            "pdf_page": 5,
+            "side": "",
+            "excerpt": "合併綜合損益表"
+          },
+          {
+            "pdf_page": 23,
+            "side": "",
+            "excerpt": "併綜合損益表之營業成本及營業費用項下。"
+          }
+        ],
+        "cashflow_statement": [
+          {
+            "pdf_page": 3,
+            "side": "",
+            "excerpt": "表及合併現金流量表，以及合併財務報告附註(包括重大會計政策彙總)，業經本會計師核閱竣"
+          },
+          {
+            "pdf_page": 7,
+            "side": "",
+            "excerpt": "合併現金流量表"
+          },
+          {
+            "pdf_page": 8,
+            "side": "",
+            "excerpt": "合併現金流量表(續)"
+          },
+          {
+            "pdf_page": 10,
+            "side": "",
+            "excerpt": "國際會計準則第七號「現金流量表」已配合新準則修訂，要求公司採用間接法"
+          },
+          {
+            "pdf_page": 26,
+            "side": "",
+            "excerpt": "認列於現金流量表之金額如下："
+          }
+        ],
+        "equity_statement": [
+          {
+            "pdf_page": 3,
+            "side": "",
+            "excerpt": ""
+          },
+          {
+            "pdf_page": 6,
+            "side": "",
+            "excerpt": "合併權益變動表"
+          }
+        ],
+        "notes": [
+          {
+            "pdf_page": 3,
+            "side": "",
+            "excerpt": "表及合併現金流量表，以及合併財務報告附註(包括重大會計政策彙總)，業經本會計師核閱竣"
+          },
+          {
+            "pdf_page": 7,
+            "side": "",
+            "excerpt": "(請詳閱後附合併財務報告附註)"
+          },
+          {
+            "pdf_page": 8,
+            "side": "",
+            "excerpt": "(請詳閱後附合併財務報告附註)"
+          },
+          {
+            "pdf_page": 9,
+            "side": "",
+            "excerpt": "合併財務報告附註"
+          },
+          {
+            "pdf_page": 10,
+            "side": "",
+            "excerpt": "長榮航空股份有限公司及子公司合併財務報告附註(續)"
+          },
+          {
+            "pdf_page": 11,
+            "side": "",
+            "excerpt": "長榮航空股份有限公司及子公司合併財務報告附註(續)"
+          }
+        ]
+      },
+      "verified_at": "2026-10-14",
+      "verification_method": "核对官方披露分类、封面/目录、四张报表及后续附注；SHA-256校验原PDF。此项验证报告完整性，不表示逐页数字均已审计。",
+      "audited_statement_pages": {
+        "balance_sheet": 4,
+        "income_statement": 5,
+        "equity_statement": 6,
+        "cashflow_statement": 7,
+        "notes_start": 9
+      }
+    }
+  ]
+}
